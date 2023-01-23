@@ -1,0 +1,26 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "ngraph.fromjson": "3.1.0",
+    "ngraph.graph": "20.0.1",
+    "ngraph.pixel": "2.4.1",
+    "ngraph.tojson": "1.2.0",
+    "parcel-bundler": "^1.6.1",
+    "tap": "16.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["javascript", "starter"]
+}
